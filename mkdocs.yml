@@ -1,0 +1,17 @@
+# mkdocs.yml
+
+site_name: A Guide to Skopelos
+docs_dir: 3-guide-demo  
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+
+plugins:
+  - roamlinks 
+
+nav:
+  - Home: index.md
+  - Beaches: beaches.md
+  - Restaurants: restaurants.md
